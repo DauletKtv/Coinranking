@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.active-link {
+  color: white;
+  font-weight: 800;
+  font-size: medium;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  padding: 15px 68px;
+  background-color: black;
+  width: 100vw;
+}
+.spotifySvg {
+  height: 40px;
+  max-width: 131px;
+  width: 100%;
+}
+.app__title {
+  color: white;
+}
+.app__menu a {
+  color: white;
+}

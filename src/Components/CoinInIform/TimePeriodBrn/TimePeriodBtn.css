@@ -1,0 +1,15 @@
+.preriodRow .active{
+    color: white;
+    padding: 5px 10px;
+background: gray;
+border-radius: 10px;
+cursor: pointer;
+}
+.preriodRow .notActive{
+    color: white;
+    padding: 5px 10px;
+/* background: gray; */
+border-radius: 10px;
+cursor: pointer;
+
+}

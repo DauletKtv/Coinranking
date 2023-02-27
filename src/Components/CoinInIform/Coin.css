@@ -1,0 +1,14 @@
+/* .coinPage{
+
+} */
+.coinPage a{
+    text-decoration: underline white;
+}
+.CoinPageBlock{
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.star{
+    border-radius: 20px;
+    box-shadow: yellow 0px 2px 14px 4px;
+}
