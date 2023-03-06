@@ -1,0 +1,37 @@
+.CoinCard {
+  width: 100px;
+  height: 100px;
+}
+.CoinCardImg {
+  width: 80%;
+  /* height: 25%; */
+}
+.coin-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 200px !important;
+}
+.coinCardBorder{
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  padding: 3px;
+}
+.coinCardBg{
+  width: 600px;
+  height: 200px;
+  position: absolute;
+  top: 11%;
+  left: -72%;
+  /* right: 10px */
+  animation: spin 4s linear infinite;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
